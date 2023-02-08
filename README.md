@@ -20,3 +20,9 @@ The linked sites are what helped when creating the webpage.
 
 ### Reflections and Comments
 
+### Journal
+
+
+### Comments
+
+Overall this project went well. I took a lot of time on CSS and trying to make it look like something. I do not have any questions right now. The assignment took me 5 hours to do when I could get it done in 2 hours. I need more work on my CSS skills. I spent A LOT of time on CSS with some mental breaks in between.
