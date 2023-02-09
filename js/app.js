@@ -66,13 +66,13 @@ let numOfGuess = 0;
 let visitorNumber = prompt('Can you guess the number I chose? Pick a number 1 through 10');
 
 while(+visitorNumber !== myNumber && numOfGuess < 3){
-  if(visitorNumber <= 7){
+  if(visitorNumber < myNumber){
     alert('Oh No! That guess is TOO LOW!');
     visitorNumber = prompt(`${visitorName} please guess again!`);
-  }else if (visitorNumber > 7) {
+  }else if (visitorNumber > myNumber) {
     alert('Oh my! That guess is TOO HIGH!');
     visitorNumber = prompt(`${visitorName} please guess again!`);
-  }else if (visitorNumber === 7){
+  }else if (visitorNumber === myNumber){
     alert(`Wow! ${visitorName}, you got it Correct!`);
     scoreCount++;
   }

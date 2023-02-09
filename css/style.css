@@ -29,22 +29,23 @@ ul, ol {
   padding: 3px;
 }
 
-ol {
-  list-style: lower-roman, 5px;
-
+ul {
+  list-style: disc;
+  list-style-position: inside;
 }
 
-ul {
-  list-style: square, 5px;
+ol {
+  list-style: lower-roman;
+  list-style-position: inside;
 }
 
 .bio, .job {
-  text-align: left;
+  text-align: center;
 
 }
 
 .edu, .goal {
-  text-align: right;
+  text-align: center;
 }
 
 
