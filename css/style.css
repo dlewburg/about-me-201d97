@@ -17,7 +17,6 @@ body{
 h1{
   font-size: 50px;
   background: repeating-radial-gradient(#e66465, #9198e5 20%);
-  color: ; 
 }
 
 h2 {
@@ -25,9 +24,18 @@ h2 {
   padding: 3px; 
 }
 
-p {
+ul, ol {
   font-size: 20px;
   padding: 3px;
+}
+
+ol {
+  list-style: lower-roman, 5px;
+
+}
+
+ul {
+  list-style: square, 5px;
 }
 
 .bio, .job {
