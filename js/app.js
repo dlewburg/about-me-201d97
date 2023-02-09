@@ -100,16 +100,18 @@ while (numSteakGuess !== 0){
       break;
     }
   }
+
   if (correctGuess){
+    alert('Wagyu, Filet Mignon, Ribeye, T-Bone, and Kobe were all Correct!');
     break;
-  }else{
+  }else if (numSteakGuess === 0) {
+    alert('Wagyu, Filet Mignon, Ribeye, T-Bone, and Kobe were all Correct!');
+  }
+  else{
     alert(`${visitorName},that is not an expensive cut. Please try again.`);
   }
   numSteakGuess--;
 }
-
-
-
 
 //Give user final alert with name and number of correct answers
 alert(`${visitorName}, thank you for taking the time to answer (or guess) questions about me! You got ${scoreCount} Correct! Nice Job!`);
