@@ -8,15 +8,18 @@ alert(`Hi ${visitorName}! Welcome to the page I created ALL About Me! You are go
 //Creating a Score Counter
 let scoreCount = 0;
 
-//Ask the user 5 Yes/No questions with prompt and alert for correct/incorrect answer
-let quest1 = prompt('I am from Northeast Ohio, is that considered the Midwest?').toLowerCase();
-if (quest1 === 'yes' || quest1 === 'yeah'){
-  //console.log('Wow, that is CORRECT!');
-  alert('Wow! That is CORRECT! You sure know your geography!');
-  scoreCount++;
-}else {
-  //console.log('Aww, that is not correct. Let us move on to the next question.');
-  alert('Aww, that is not correct. Let us move on to the next question.');
+//Ask the user 5 Yes/No questions with prompt and alert for correct/incorrect answer; wrapped each question in a function
+
+function question1(){
+  let quest1 = prompt('I am from Northeast Ohio, is that considered the Midwest?').toLowerCase();
+  if (quest1 === 'yes' || quest1 === 'yeah'){
+    //console.log('Wow, that is CORRECT!');
+    alert('Wow! That is CORRECT! You sure know your geography!');
+    scoreCount++;
+  }else {
+    //console.log('Aww, that is not correct. Let us move on to the next question.');
+    alert('Aww, that is not correct. Let us move on to the next question.');
+  }
 }
 
 let quest2 = prompt('Do I have more than one child?').toLowerCase();
@@ -102,10 +105,10 @@ while (numSteakGuess !== 0){
   }
 
   if (correctGuess){
-    alert('Wagyu, Filet Mignon, Ribeye, T-Bone, and Kobe were all Correct!');
+    alert(`${visitorName}, ${steak} were all correct answers!`);
     break;
   }else if (numSteakGuess === 0) {
-    alert('Wagyu, Filet Mignon, Ribeye, T-Bone, and Kobe were all Correct!');
+    alert(`${visitorName}, ${steak} were all correct answers!`);
   }
   else{
     alert(`${visitorName},that is not an expensive cut. Please try again.`);
