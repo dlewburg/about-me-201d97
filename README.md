@@ -8,6 +8,12 @@ Created By: Dasha Lewis
 
 TA: Justin
 
+Pair Programming:
+
+* Driver: Emmanuel Gonzales
+
+* Navigator: Dasha Burgos
+
 ### Links and Resources
 
 The linked sites are what helped when creating the webpage.
