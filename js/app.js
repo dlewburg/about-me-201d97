@@ -1,12 +1,10 @@
 //Using use strict as directed in Lab
 'use strict';
 
-function greeting(){
-  //Prompt user for name and greet user to page
-  let visitorName = prompt('Hi There! May I have your name please?');
-  alert(`Hi ${visitorName}! Welcome to the page I created ALL About Me! You are going to be prompted to answer a few questions about me to see what you know. Please answer Yes or No for each question. Let's see what you know or can guess!`);
-}
-greeting();
+//Prompt user for name and greet user to page
+let visitorName = prompt('Hi There! May I have your name please?');
+alert(`Hi ${visitorName}! Welcome to the page I created ALL About Me! You are going to be prompted to answer a few questions about me to see what you know. Please answer Yes or No for each question. Let's see what you know or can guess!`);
+
 
 //Creating a Score Counter
 let scoreCount = 0;
@@ -107,7 +105,7 @@ question6();
 function question7(){
 //user guesses one element in an array within 6 tries
 
-  let steak = ['wagyu','filet mignon','ribeye','t-bone','kobe'];
+  let steak = ['wagyu','filet mignon','tomahawk','t-bone','kobe'];
 
   let numSteakGuess = 6;
 
